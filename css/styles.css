@@ -1,0 +1,114 @@
+body {
+  font-size: 16px;
+  color: white;
+  background-color: #5616E7;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #DA9905;
+  border-radius: 0;
+  border: 1px solid black;
+  padding-bottom: 15px;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #6539C9;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+  background-color: #A2E4A8;
+  border: 1px solid black;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  border: 1px solid black;
+}
+#nav-list a:hover {
+  background: #5616E7;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  
+  margin-top: 15px;
+}/* END HEADER */
+
+#text-center, h2 {
+  margin-bottom: 20px;
+  color: black;
+}
+/*row and manu-tile*/
+.row{
+  background-color: #DA9905;
+  margin: 10px;
+}
+
+#menu-tile {
+  height: 1000px;
+  width: 100%;
+    color: black;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 7vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+
+  /* End Header */
+
+}
